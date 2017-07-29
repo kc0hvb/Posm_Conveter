@@ -1,0 +1,68 @@
+﻿<Window x:Class="PicAx_To_IT_Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PicAx_To_IT_Converter"
+        mc:Ignorable="d"
+        Title="POSM to ITpipes" Height="800" Width="1350"
+        d:DataContext="{d:DesignInstance Type=local:ViewModel, IsDesignTimeCreatable=True}">
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="239*"/>
+            <ColumnDefinition Width="335*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="334*"/>
+            <ColumnDefinition Width="196*"/>
+            <ColumnDefinition Width="138*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <Border CornerRadius="15" BorderBrush="Gray" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="2" BorderThickness="5" Margin="0,0,0.333,192.333">
+            <Grid Name="sourceGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0, 0, 10, 5" Content="Posm DB:"/>
+                <TextBlock x:Name="textBoxPosm" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10, 0, 0, 5" Text="{Binding PathToPosmDatabase, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding CanInteractWithUI, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Grid.Column="2" Grid.Row="0" Margin="10" Content="POSM DB" Command="{Binding GetPosmDatabasePathCommand}" IsEnabled="{Binding CanInteractWithUI, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Grid.Column="3" Grid.Row="0" Margin="10" Content="Map Fields" IsEnabled="{Binding CanInteractWithUI, UpdateSourceTrigger=PropertyChanged}" Command="{Binding GetFieldMapperCommand}"/>
+
+                <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Content="ITpipes DB: " Margin="0, 5, 10, 0"/>
+                <TextBlock x:Name="textBoxItpipes" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10, 5, 0, 0" Text="{Binding PathToITpipesDb, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Grid.Column="2" Grid.Row="1" Margin="10" Content="ITpipes DB" Command="{Binding GetITpipesDatabasePathCommand}"/>
+                <Button Grid.Column="3" Grid.Row="1" Margin="10" Content="Begin Conversion" IsEnabled="{Binding CanInteractWithUI,UpdateSourceTrigger=PropertyChanged}" Command="{Binding BeginConversionCommand}"/>
+            </Grid>
+        </Border>
+
+        <GroupBox Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2" Header="Errors" BorderBrush="Gray" BorderThickness="5" Margin="0,0.333,0.333,0">
+            <CheckBox x:Name="checkBoxImperial" Content="IsImperial" HorizontalAlignment="Left" Margin="531,10,0,0" VerticalAlignment="Top" IsChecked="{Binding isImperialCheck}"/>
+        </GroupBox>
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="1" Margin="0,0,0.333,-0.333">
+            <ListView ItemsSource="{Binding ConversionStatus, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <GridSplitter Grid.Column="2" Grid.Row="0" Grid.RowSpan="4" HorizontalAlignment="Stretch" ResizeDirection="Columns" Background="Black" Grid.ColumnSpan="3" Margin="334.333,0,333.667,-0.333"/>
+        <ContentPresenter Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="4" Content="{Binding FieldMapperControl, UpdateSourceTrigger=PropertyChanged}" Margin="0.333,0,0.334,-0.333"/>
+    </Grid>
+</Window>

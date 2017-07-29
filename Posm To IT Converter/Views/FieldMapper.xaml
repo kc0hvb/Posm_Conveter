@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="PicAx_To_IT_Converter.Views.FieldMapper"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PicAx_To_IT_Converter.Views"
+             xmlns:vm="clr-namespace:PicAx_To_IT_Converter.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="675"
+             d:DataContext="{d:DesignInstance Type=vm:FieldMapperViewModel, IsDesignTimeCreatable=True}">
+    <UserControl.DataContext>
+        <vm:FieldMapperViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ComboBox Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Margin="5, 2, 5, 2" ItemsSource="{Binding TableTypes, UpdateSourceTrigger=PropertyChanged}" SelectedValue="{Binding SelectedTableType, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+        <Border CornerRadius="4" BorderBrush="Black" BorderThickness="3" Margin="5" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
+            <ListView ItemsSource="{Binding ActivePosmColumnCollection, UpdateSourceTrigger=PropertyChanged}" IsHitTestVisible="True">
+                <ListView.Resources>
+                    <SolidColorBrush x:Key="alreadyMappedKey" Color="Red"/>
+                </ListView.Resources>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        <Setter Property="IsHitTestVisible" Value="True"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsMapped, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Value="False">
+                                <Setter Property="FontWeight" Value="Bold"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    
+                    <DataTemplate>
+                        <DockPanel IsHitTestVisible="True" DataContext="{Binding}" IsEnabled="True">
+                            <Label Content="{Binding FieldName, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Left" VerticalAlignment="Stretch" IsHitTestVisible="True"  PreviewMouseLeftButtonDown="PosmML_StartDrag" />
+                            <Label Content="{Binding DataTypeString, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch" DockPanel.Dock="Left" IsHitTestVisible="True"  PreviewMouseLeftButtonDown="PosmML_StartDrag" Foreground="Gray"/>
+                            <Label Content="{Binding SampleValue, UpdateSourceTrigger=PropertyChanged}" IsHitTestVisible="True"  PreviewMouseLeftButtonDown="PosmML_StartDrag" Foreground="Blue"/>
+                        </DockPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+
+        <GridSplitter HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Background="Black" ResizeDirection="Columns"/>
+
+        <Border CornerRadius="4" BorderBrush="Gray" BorderThickness="3" Margin="5" Grid.Column="2" Grid.Row="1">
+                <ListView ItemsSource="{Binding ActiveITpipesColumnCollection, UpdateSourceTrigger=PropertyChanged}">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel Drop="MLMap_Drop" AllowDrop="True" HorizontalAlignment="Stretch">
+                            <TextBlock x:Name="itField" Text="{Binding itpipesFieldName, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="5, 0, 10, 0"/>
+                            <Border CornerRadius="2" BorderBrush="Green" BorderThickness="2" DockPanel.Dock="Right" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <ListView ItemsSource="{Binding posmFields, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" PreviewMouseWheel="FieldMapList_PreviewMouseWheel">
+                                    
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid HorizontalAlignment="Stretch">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition Width="26"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="{Binding UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" HorizontalAlignment="Stretch"/>
+                                                <Button Grid.Column="1" Content="X" Foreground="Red" Click="RemoveMappedFieldButtonClick"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </Border>
+                        </DockPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Load Mapping" Margin="4" Command="{Binding LoadMappingFromFileCommand}"/>
+            <Button Grid.Column="1" Content="Save Mapping" Margin="4" Command="{Binding SaveCurrentMappingToFileCommand}"/>
+        </Grid>
+    </Grid>
+</UserControl>

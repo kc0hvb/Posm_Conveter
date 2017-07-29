@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PosmToITFieldMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MappingValues>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Access_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>ADD_Component_Info</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Additional_Info</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Adjustment_Ring_Height</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Adjustment_Ring_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Adjustment_Ring_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Name</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_System</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Use</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Bench_Lining</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Bench_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Bench_Present</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Camera</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Category</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Certificate_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Channel_Exposure</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Channel_Installed</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Channel_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Channel_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Clear_Opening</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Depth</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_InI</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Lining_Exterior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Lining_Interior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Material1</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_Material2</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>City</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Clean_Date</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cleaned</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cone_Depth</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cone_Lining_Exterior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cone_Lining_Interior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cone_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cone_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Coordinate_System</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Bearing_Surface_Dia</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Bearing_Surface_Dia_Width</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_BoltsMissing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Missing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Restraint_Defective</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Restraint_Missing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Frame_Fit</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Insert_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Shape</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Size</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Size_Width</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Bolted</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Gasketed</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Hatch_Double</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Hatch_Single</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Inner_Cover</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Lamphole</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Locking</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Solid</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Type_Vented</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Creation_Date</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Current_Status</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Customer</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Drainage_Area</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Easting</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Elevation</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Evidence_Surcharge</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Flow_Control</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Bearing_Surface_Depth</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Bearing_Surface_Width</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Clear_Open_Diam</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Coated</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Missing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Depth</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Offset_Distance</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Loose</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_missing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Offset</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Inflow</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>GPS_Accuracy</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Grade_to_Invert</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Hole_Diameter</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Hole_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_InsertFell</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Leaking</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_PoorlyFitting</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Inspection_Date</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Inspection_Status</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>InspectionLevel</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>IsImperial</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Last_Modified_Date</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields>
+        <string>AssetLocation</string>
+      </posmFields>
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Location</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Location_Details</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_1</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_10</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_2</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_3</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_4</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_5</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_6</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_7</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_8</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_9</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Mainline_Asset</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Map_1</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Map_2</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields>
+        <string>StartID</string>
+      </posmFields>
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MH_ID</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MH_Name</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MH_Use</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>ML_Name</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Northing</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Operator</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Owner</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Parent_Asset</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>PO_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Potential_for_Runoff</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Present</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Pressure_Value</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Project_Title</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Reason_of_Inspection</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Remark</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Rim_to_Grade</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Rim_to_Invert</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Leaking</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_PoorInstall</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Sheet_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Start_Time</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Status</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Step_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Step_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Street</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Suburb</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_Asphalt</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_ConcreteCollar</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_ConcretePavement</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_GrassDirt</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_Gravel</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_Other</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Vehicle</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_BySize</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_Depth</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_Diam</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_Lining_Exterior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_Lining_Interior</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Wall_Material</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Weather</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>WO_Number</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Year_Built</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Year_Constructed</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Year_Renewed</itpipesFieldName>
+      <itpipesTableName>MH</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>ADD_Component_Info</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Additional_Info</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Color_Grade</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Condition_Description</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Materal_Descritpion</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_type</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Asset_Type_Description</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Barrel-Box_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Barrel-Box_Size</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Basin</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Bench_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Camera</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Catch_Basin_Grate_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Certificate_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Chimney_InI</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Clean_Date</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cleaned</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Completed</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_BoltsMissing</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Missing</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Restraint_Defective</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Restraint_Missing</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Cover_Frame_Fit</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Creation_Date</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Curb_Inlet_Screen_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Current_Status</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Customer</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Drop_Manhole_Description_-_Attached_to_Inside_of_Manhole</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Drop_Manhole_Description_-_Outside_of_Barrel</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>End_Time</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Evidence_of_Surcharge</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Evidence_Surcharge</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Flow_Conditions</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Flow_Control</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Coated</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Missing</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Offset_Distance</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Loose</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_missing</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Offset</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Frame_Seal_Inflow</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Full_Capture</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Full_Capture_Trash_Device_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Full_Capture_Trash_Device_Type_Description</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>GPS_coordinates_Lat</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>GPS_coordinates_Long</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Grade_ABOVE</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Grade_AT</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Grade_BELOW</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Infiltration_Location</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Infiltration_Type</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_InsertFell</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Leaking</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_PoorlyFitting</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Insert_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields>
+        <string>Date</string>
+      </posmFields>
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Inspection_Date</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Inspection_Name</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Inspection_Status</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>InspectionLevel</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>IsImperial</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Last_Modified_Date</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Located_near_MRP_High_Priority_Site</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Location</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Location_Description</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_1</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_10</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_2</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_3</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_4</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_5</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_6</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_7</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_8</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MACP_Custom_9</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Media_Label</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Media_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MH_Depth</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MH_ID</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MHI_ID</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>MHI_Level</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Number_of_Laterals</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Number_of_Property_Connections</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Number_of_Steps</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields>
+        <string>OperatorName</string>
+      </posmFields>
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Operator</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Operator_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>PO_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Potential_for_Runoff</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Present</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Pressure_Value</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Project_Title</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Reason_Of_Inspection</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Remark</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Broken</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Corroded</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Cracked</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Leaking</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_PoorInstall</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Ring_Condition_Sound</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Sheet_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Start_Time</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Status</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Steps_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Surface_Type_Description</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Tally_1</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Tally_2</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Tally_3</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Tally_4</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Tally_5</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Template_Name</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Trough_Condition</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Vehicle</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>Weather</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>WO_Number</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[SpecialFields]</posmTableName>
+      <itpipesFieldName>WO_Status</itpipesFieldName>
+      <itpipesTableName>MHI</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Clock_From</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Clock_To</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Code</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Component_ID</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Connection_Name</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Continuous</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Digital_Time</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Distance</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Grade</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Has_Step</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Inspection_Name</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>IsConnection</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>IsReverse</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Joint</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Measure_1</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>MHCI_ID</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>MHI_ID</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>MHO_ID</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>OBS_Revision</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>OBS_Type</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Observation_Text</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Remarks</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Status</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Tally_1</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Tally_2</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Tally_3</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Tally_4</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Tally_5</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Value_1st_Dimension</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Value_2nd_Dimension</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>Value_Percent</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+    <MappingValue>
+      <posmFields />
+      <posmTableName>[Data]</posmTableName>
+      <itpipesFieldName>VCR_Time</itpipesFieldName>
+      <itpipesTableName>MHO</itpipesTableName>
+    </MappingValue>
+  </MappingValues>
+</PosmToITFieldMapping>
